@@ -1,0 +1,17 @@
+\addvspace {1em}
+\addvspace {1em}
+\addvspace {1em}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Transactional database, D}}{18}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Sample coverage 3-patterns extracted from MSNBC dataset.}}{20}
+\addvspace {1em}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Topic Labels of web pages, L}}{25}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Projected database with respect to X=\{a\}}}{33}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Database arranged in the order of f-list}}{33}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Projected databases, non-overlap patterns and \emph {coverage patterns} generated in CPPG}}{34}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Database arranged in the order of f-list}}{37}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Projected database of Table 4.5\hbox {} with respect to X=\{b\}}}{37}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Projected databases, non-overlap and content specific coverage patterns generated in CSCPPG}}{38}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Figure showing all coverage patterns in comparison with content-specific coverage patterns with TPCS and FTPCS for topics `football' and `cricket'}}{39}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Average relevance for a sample in CPPG, CSCPPG (TPCS) and CSCPPG (FTPCS)}}{43}
+\addvspace {1em}
+\addvspace {1em}

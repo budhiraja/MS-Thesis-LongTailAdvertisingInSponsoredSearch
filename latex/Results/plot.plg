@@ -1,0 +1,14 @@
+reset
+set terminal tgif
+fontsize = 12
+set output topic.".obj"
+set style fill solid 1.00 border 0
+set style histogram
+set style data histogram
+set yrange [0:2.4]
+set datafile separator ","
+set nokey
+set tics font ", 22"
+plot topic.".dat" using 2:xtic(1)  title "Present Approach" lt rgb "#000000",\
+	"" using 3 title "Our Approach" lt rgb "#111111",\
+	

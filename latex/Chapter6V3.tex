@@ -1,0 +1,23 @@
+In this chapter, we present the final conclusions and give possible directions for future work.
+
+
+We have investigated the issue of under-utilization of ad space provided by tail keywords in sponsored search. We have proposed two approaches where we suggest that advertisers should bid upon high level concepts instead of keywords in the ad space auctions. In the first approach, we consider that the concepts are organized in a two level taxonomy. We assign groups of concepts to advertisers. These groups are formed by employing coverage patterns on search query transactions. Through experiments on a real world dataset, it can seen that there is an improvement in the ad space utilization and ads are more evenly distributed to the audience. In the second approach, we generalize the taxonomy from two level to multi-level in order to provide more flexibility to the advertisers during bidding on ad slots. We also propose the model of level-wise coverage patterns to assign nodes to advertisers. Experimental results show that the approach proposed allows more flexibility to the advertisers and helps in exploiting more ad space for sponsored search.
+
+Overall, bidding on concepts has shown promise in improving the utilization of ad space of search queries for sponsored search. Since, each concept is composed of a mix of head and tail query keywords, each keyword is considered for advertising based on the relevancy rather than frequency.
+
+
+
+The possible directions of future work as are as follows. 
+
+
+In the proposed approaches, external taxonomies have been employed to perform bidding. As a part of future work, we plan on investigating the construction of taxonomy for keyword auctions. We plan to answer if a taxonomy can be constructed from search query logs and bidding phrases of advertisers to suit the bidding requirements.
+
+Coverage patterns have shown promising results with respect to distribution of ads to more unique eye balls. We plan on evaluating other methods of node grouping such as generalized frequent patterns or diverse frequent patterns.
+
+Another important direction of future work is to look at the trade-off of the proposed approaches with respect to targeted advertising. Targeted advertising is a key factor of success in sponsored search and it is important to understand how targeted advertising will work with the bidding on groups of keywords or bidding on nodes in a taxonomy because the query and the ad might belong to the same high level concept but may as well belong to different topics. 
+
+We also plan to look at truthful auctions in the case of taxonomic bidding. Compared the keywords bidding scenario where each advertiser bids on the keywords (lowest level of the taxonomy), in the proposed approaches the advertisers can bid on different levels of generalization in the taxonomy. For example, a large advertiser could bid upon multiple lower levels concepts, if those concepts are cheaper than the high level concept desired by the advertiser. Thus, a key issue is to make sure that an advertiser's bids are truthful while allowing the freedom to bid on any node in the taxonomy. 
+
+In the proposed approaches, we have assumed a first-come-first-serve advertiser model. As a part of future work, we intend to explore scheduling mechanisms for incoming advertisers to evaluate different allocation schemes for a stream of incoming advertisers.
+
+On the coverage patterns front, we plan on looking at parallel approaches to extraction of coverage patterns. We also aim to investigate the notion of taxonomic coverage patterns for banner advertising and real time bidding.

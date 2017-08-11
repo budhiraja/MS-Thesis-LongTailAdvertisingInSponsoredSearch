@@ -1,0 +1,136 @@
+%  $Description: Thesis
+%  $Author: xxx $
+%  $Date: xxx  $
+%  $Revision: 0.0 $
+
+\documentclass[11pt]{book}
+
+\usepackage{iiit_thesis}
+\usepackage{enumitem}
+\usepackage{footnote}
+\usepackage{times}
+\usepackage{makecell}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+
+\usepackage{multirow}
+
+\usepackage{algorithm} 
+\usepackage{algorithmic}  
+\usepackage[algo2e]{algorithm2e} 
+\usepackage{pifont}
+
+\usepackage{graphicx}
+
+
+
+\usepackage{setspace}
+\usepackage{subfloat}
+\usepackage{subfig}
+%\usepackage{multitoc}
+\usepackage{etoolbox}
+\usepackage{setspace}
+\usepackage{adjustbox}
+
+
+\usepackage[square,numbers,sort&compress]{natbib}
+\usepackage{databib}
+\newtheorem{mydef}{Definition}
+\newtheorem{myexp}{Example}
+\newtheorem{prop}{Property}
+\newtheorem{lem}{Lemma}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\graphicspath{{images/}{./}} % To include images in other directories
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+\renewcommand{\baselinestretch}{1.2}
+\onecolumn
+%--------------------------------------------------------
+
+\begin{document}
+\pagenumbering{roman}
+
+%% TITLE PAGE
+\input{titlePage.tex}
+
+%% CERTIFICATE PAGE
+\input{certificate.tex}
+
+%% COPYRIGHT PAGE
+\newpage
+\thispagestyle{empty}
+\renewcommand{\thesisdedication}{{\large Copyright \copyright~~Amar Budhiraja, 2017\\}{\large All Rights Reserved\\}}
+\thesisdedicationpage
+
+
+%%% DEDICATION PAGE
+\newpage
+\thispagestyle{empty}
+\renewcommand{\thesisdedication}{\large To my family}
+\thesisdedicationpage
+
+\mastersthesis
+\renewcommand{\baselinestretch}{1.5}
+
+% ACKNOWLEDGEMENTS PAGE
+\chapter*{Acknowledgments}
+\label{ch:ack}
+\input{acknowledgements.tex}
+
+%% ABSTRACT PAGE
+\chapter*{Abstract}
+\label{ch:abstract}
+\input{abstractV6-pkr.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+%--------------------------------------------------------
+
+\chapter{Introduction}
+\label{ch:introduction}
+\input{Chapter1V6.tex}
+
+%--------------------------------------------------------
+
+\chapter{Related Work}
+\label{ch:relatedwork}
+\input{Chapter2V3.tex}
+
+%--------------------------------------------------------
+
+\chapter{Background: Sponsored Search and Coverage Patterns}
+\label{ch:background}
+\input{chapter3.tex}
+
+%--------------------------------------------------------
+
+\chapter{Exploiting ad space of tail queries using a two level taxonomy and coverage patterns}
+\label{ch:DSAA}
+\input{chapter4V4.tex}
+
+
+\chapter{Exploiting ad space of tail queries using a multi-level taxonomy and coverage patterns}
+\label{ch:DASFAA}
+\input{Chapter5V3.tex}
+
+%--------------------------------------------------------
+
+\chapter{Conclusion and Future Work}
+%\label{ch:Conclusion}
+\input{Chapter6V3.tex}
+
+\chapter{Publications}
+\label{ch:relatedPubs}
+\input{publications.tex}
+
+
+
+\nocite{*}
+\bibliographystyle{abbrvnat}
+\bibliography{sampleBib}
+
+\end{document}
